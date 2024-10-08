@@ -17,6 +17,9 @@ const UploadPage = () => {
         )
       }
       <CldUploadWidget
+        options={{
+          sources: ['local']
+        }}
         uploadPreset="w1hdk94b"
         onSuccess={(result, widget) => {
           if (result.event !== 'success') return
