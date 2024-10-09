@@ -1,7 +1,7 @@
 'use client'
 import ProductCard from "./components/ProductCard";
 import { getServerSession } from "next-auth";
-import { authOptions } from "./api/auth/[...nextauth]/route";
+// import { authOptions } from "./api/auth/[...nextauth]/route";
 import { useState } from "react";
 // import _ from 'lodash'
 import dynamic from "next/dynamic";
